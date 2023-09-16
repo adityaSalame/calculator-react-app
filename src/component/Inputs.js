@@ -20,7 +20,7 @@ function Inputs(){
     }
 
     function checkResult(op){
-        if(status=== 'ERROR!') return;
+        if(status== "ERROR!") return;
         const number1 = parseFloat(num1);
         const number2 = parseFloat(num2);
         let res;
@@ -59,13 +59,13 @@ function Inputs(){
         const number2 = parseFloat(num2);
 
         if(isNaN(number1)){
-            setResult("Num1 is no valid");
+            setResult("Num1 is not valid");
             setStatus("ERROR!");
             return;
         }
 
         else if(isNaN(number2)){
-            setResult("Num2 is no valid");
+            setResult("Num2 is not valid");
             setStatus("ERROR!");
             return;
             
